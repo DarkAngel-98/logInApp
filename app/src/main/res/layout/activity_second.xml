@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="@drawable/background_gradient"
+    tools:context=".SecondActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/username1"
+        android:hint="Username"
+        android:textSize="20sp"
+        android:textColorHint="@color/white"
+        android:textColor="@color/purple_200"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="50dp">
+    </EditText>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/password1"
+        android:hint="Password"
+        android:textSize="20sp"
+        android:textColorHint="@color/white"
+        android:textColor="@color/purple_200"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_below="@+id/username1"
+        android:layout_marginTop="50dp">
+    </EditText>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/LogInBtn1"
+        android:layout_below="@+id/password1"
+        android:layout_marginTop="50dp"
+        android:text="Log In"
+        android:textSize="20sp"
+        android:backgroundTint="#00153e">
+    </Button>
+
+</RelativeLayout>
